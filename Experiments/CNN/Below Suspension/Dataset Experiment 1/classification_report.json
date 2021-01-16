@@ -1,0 +1,242 @@
+[
+    {
+        "params": {
+            "file": "dataset-experiment-1-window-100-robust-scaler-train-acc-0.97629-val-acc-0.94203.hdf5",
+            "placement": "Below Suspension",
+            "experiment_number": 1,
+            "window_size": 100,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 100, 7)",
+            "output_shape": "(None, 1)"
+        },
+        "confusion_matrix": [
+            [
+                7286,
+                244
+            ],
+            [
+                861,
+                10669
+            ]
+        ],
+        "classification_report": {
+            "Without Speed Bump": {
+                "precision": 0.8943169264760035,
+                "recall": 0.9675962815405047,
+                "f1-score": 0.9295145754927602,
+                "support": 7530
+            },
+            "With Speed Bump": {
+                "precision": 0.9776413451846422,
+                "recall": 0.9253252385082393,
+                "f1-score": 0.950764158089382,
+                "support": 11530
+            },
+            "accuracy": 0.9420251836306401,
+            "macro avg": {
+                "precision": 0.9359791358303229,
+                "recall": 0.946460760024372,
+                "f1-score": 0.9401393667910711,
+                "support": 19060
+            },
+            "weighted avg": {
+                "precision": 0.9447225165972314,
+                "recall": 0.9420251836306401,
+                "f1-score": 0.9423691236217765,
+                "support": 19060
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-1-window-200-robust-scaler-train-acc-0.98984-val-acc-0.95121.hdf5",
+            "placement": "Below Suspension",
+            "experiment_number": 1,
+            "window_size": 200,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 200, 7)",
+            "output_shape": "(None, 1)"
+        },
+        "confusion_matrix": [
+            [
+                3708,
+                52
+            ],
+            [
+                694,
+                10836
+            ]
+        ],
+        "classification_report": {
+            "Without Speed Bump": {
+                "precision": 0.84234438891413,
+                "recall": 0.9861702127659574,
+                "f1-score": 0.9086008331291351,
+                "support": 3760
+            },
+            "With Speed Bump": {
+                "precision": 0.9952240999265246,
+                "recall": 0.9398091934084996,
+                "f1-score": 0.9667231688821484,
+                "support": 11530
+            },
+            "accuracy": 0.9512099411379987,
+            "macro avg": {
+                "precision": 0.9187842444203274,
+                "recall": 0.9629897030872285,
+                "f1-score": 0.9376620010056418,
+                "support": 15290
+            },
+            "weighted avg": {
+                "precision": 0.9576290892393694,
+                "recall": 0.9512099411379987,
+                "f1-score": 0.9524301680691117,
+                "support": 15290
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-1-window-300-robust-scaler-train-acc-0.99440-val-acc-0.97378.hdf5",
+            "placement": "Below Suspension",
+            "experiment_number": 1,
+            "window_size": 300,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 300, 7)",
+            "output_shape": "(None, 1)"
+        },
+        "confusion_matrix": [
+            [
+                2479,
+                27
+            ],
+            [
+                341,
+                11189
+            ]
+        ],
+        "classification_report": {
+            "Without Speed Bump": {
+                "precision": 0.8790780141843971,
+                "recall": 0.9892258579409418,
+                "f1-score": 0.930904994367255,
+                "support": 2506
+            },
+            "With Speed Bump": {
+                "precision": 0.9975927246790299,
+                "recall": 0.9704249783174328,
+                "f1-score": 0.9838213312230721,
+                "support": 11530
+            },
+            "accuracy": 0.9737817041892277,
+            "macro avg": {
+                "precision": 0.9383353694317136,
+                "recall": 0.9798254181291872,
+                "f1-score": 0.9573631627951635,
+                "support": 14036
+            },
+            "weighted avg": {
+                "precision": 0.9764330022153971,
+                "recall": 0.9737817041892277,
+                "f1-score": 0.9743736010890826,
+                "support": 14036
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-1-window-400-robust-scaler-train-acc-0.96223-val-acc-0.97450.hdf5",
+            "placement": "Below Suspension",
+            "experiment_number": 1,
+            "window_size": 400,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 400, 7)",
+            "output_shape": "(None, 1)"
+        },
+        "confusion_matrix": [
+            [
+                1814,
+                66
+            ],
+            [
+                276,
+                11254
+            ]
+        ],
+        "classification_report": {
+            "Without Speed Bump": {
+                "precision": 0.8679425837320575,
+                "recall": 0.9648936170212766,
+                "f1-score": 0.913853904282116,
+                "support": 1880
+            },
+            "With Speed Bump": {
+                "precision": 0.9941696113074205,
+                "recall": 0.9760624457935819,
+                "f1-score": 0.9850328227571116,
+                "support": 11530
+            },
+            "accuracy": 0.974496644295302,
+            "macro avg": {
+                "precision": 0.9310560975197391,
+                "recall": 0.9704780314074293,
+                "f1-score": 0.9494433635196138,
+                "support": 13410
+            },
+            "weighted avg": {
+                "precision": 0.9764733538993905,
+                "recall": 0.974496644295302,
+                "f1-score": 0.9750539736345917,
+                "support": 13410
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-1-window-500-robust-scaler-train-acc-0.99622-val-acc-0.99803.hdf5",
+            "placement": "Below Suspension",
+            "experiment_number": 1,
+            "window_size": 500,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 500, 7)",
+            "output_shape": "(None, 1)"
+        },
+        "confusion_matrix": [
+            [
+                1482,
+                22
+            ],
+            [
+                0,
+                9666
+            ]
+        ],
+        "classification_report": {
+            "Without Speed Bump": {
+                "precision": 1.0,
+                "recall": 0.9853723404255319,
+                "f1-score": 0.9926322839919625,
+                "support": 1504
+            },
+            "With Speed Bump": {
+                "precision": 0.9977291494632535,
+                "recall": 1.0,
+                "f1-score": 0.9988632840756434,
+                "support": 9666
+            },
+            "accuracy": 0.9980304386750224,
+            "macro avg": {
+                "precision": 0.9988645747316267,
+                "recall": 0.992686170212766,
+                "f1-score": 0.9957477840338029,
+                "support": 11170
+            },
+            "weighted avg": {
+                "precision": 0.9980349112544143,
+                "recall": 0.9980304386750224,
+                "f1-score": 0.998024302506632,
+                "support": 11170
+            }
+        }
+    }
+]
